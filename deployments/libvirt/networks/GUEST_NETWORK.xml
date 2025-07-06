@@ -1,0 +1,10 @@
+<network>
+  <name>GUEST_NETWORK</name>
+  <bridge name="virbr4"/>
+  <forward mode="nat"/>
+  <ip address="10.0.4.1" netmask="255.255.255.0">
+    <dhcp>
+      <range start="10.0.4.101" end="10.0.4.240"/>
+    </dhcp>
+  </ip>
+</network>

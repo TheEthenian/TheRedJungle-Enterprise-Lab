@@ -1,0 +1,10 @@
+<network>
+  <name>POS_NETWORK</name>
+  <bridge name="virbr6"/>
+  <forward mode="nat"/>
+  <ip address="10.0.6.1" netmask="255.255.255.0">
+    <dhcp>
+      <range start="10.0.6.101" end="10.0.6.240"/>
+    </dhcp>
+  </ip>
+</network>

@@ -1,0 +1,10 @@
+<network>
+  <name>ADMIN_NETWORK</name>
+  <bridge name="virbr2"/>
+  <forward mode="nat"/>
+  <ip address="10.0.2.1" netmask="255.255.255.0">
+    <dhcp>
+      <range start="10.0.2.102" end="10.0.2.240"/>
+    </dhcp>
+  </ip>
+</network>

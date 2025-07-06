@@ -1,0 +1,10 @@
+<network>
+  <name>VoIP_NETWORK</name>
+  <bridge name="virbr7"/>
+  <forward mode="nat"/>
+  <ip address="10.0.7.1" netmask="255.255.255.0">
+    <dhcp>
+      <range start="10.0.7.101" end="10.0.7.240"/>
+    </dhcp>
+  </ip>
+</network>
