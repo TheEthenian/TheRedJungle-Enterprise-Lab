@@ -1,0 +1,4 @@
+<network>
+  <name>BMS_network</name>
+  <bridge name='virbr2' stp='on' delay='0'/>
+</network>

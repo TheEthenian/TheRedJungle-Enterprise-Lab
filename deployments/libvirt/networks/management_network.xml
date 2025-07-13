@@ -1,0 +1,5 @@
+<network>
+  <name>management_network</name>
+  <bridge name='virbr6' stp='on' delay='0'/>
+</network>
+

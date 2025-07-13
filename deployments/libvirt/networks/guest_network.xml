@@ -1,0 +1,4 @@
+<network>
+  <name>guest_network</name>
+  <bridge name='virbr5' stp='on' delay='0'/>
+</network>

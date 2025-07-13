@@ -1,0 +1,4 @@
+<network>
+  <name>core_network</name>
+  <bridge name='virbr3' stp='on' delay='0'/>
+</network>
